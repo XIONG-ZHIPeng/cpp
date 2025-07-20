@@ -47,6 +47,8 @@
         "cstring": "cpp",
         "cinttypes": "cpp",
         "ctime": "cpp",
-        "valarray": "cpp"
+        "valarray": "cpp",
+        "mutex": "cpp",
+        "__mutex_base": "cpp"
     }
 }
