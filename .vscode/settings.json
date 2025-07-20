@@ -49,6 +49,17 @@
         "ctime": "cpp",
         "valarray": "cpp",
         "mutex": "cpp",
-        "__mutex_base": "cpp"
+        "__mutex_base": "cpp",
+        "compare": "cpp",
+        "concepts": "cpp",
+        "condition_variable": "cpp",
+        "map": "cpp",
+        "set": "cpp",
+        "ratio": "cpp",
+        "iomanip": "cpp",
+        "numbers": "cpp",
+        "semaphore": "cpp",
+        "stop_token": "cpp",
+        "thread": "cpp"
     }
 }
