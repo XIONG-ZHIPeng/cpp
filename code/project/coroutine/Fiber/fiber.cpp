@@ -1,4 +1,5 @@
 #include "fiber.h"
+#include "Thread/thread.h"
 
 static bool debug = false;
 
@@ -133,6 +134,12 @@ namespace sylar {
 
     // 恢复协程执行
     void Fiber::resume() {
+
+        if (m_state != READY){
+            std::cerr << "[tid " << Thread::GetThreadId() 
+                        << "] RESUME-ASSERT fiber=" << this 
+                        << " state=" << m_state << std::endl;
+        }
         assert(m_state == READY); // 确保协程状态为就绪
 
         m_state = RUNNING; // 设置状态为运行中
