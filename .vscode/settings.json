@@ -60,6 +60,15 @@
         "numbers": "cpp",
         "semaphore": "cpp",
         "stop_token": "cpp",
-        "thread": "cpp"
+        "thread": "cpp",
+        "bitset": "cpp",
+        "charconv": "cpp",
+        "chrono": "cpp",
+        "codecvt": "cpp",
+        "shared_mutex": "cpp",
+        "span": "cpp",
+        "variant": "cpp",
+        "format": "cpp",
+        "__nullptr": "cpp"
     }
 }
